@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "558896765404",
+    "project_id": "food-reviews-71d20",
+    "storage_bucket": "food-reviews-71d20.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558896765404:android:60687daacb4fa3d115d719",
+        "android_client_info": {
+          "package_name": "com.example.food_reviews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiOpRN3krdUrUUGvSdoCyIX_LTUfSf-pE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
