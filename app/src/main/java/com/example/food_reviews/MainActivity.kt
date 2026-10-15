@@ -1,4 +1,4 @@
-package com.example.food_reviews
+
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
