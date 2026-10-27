@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="New here"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 android:padding="5dp"/>
 
             <TextView
@@ -103,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Have an account?Login"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 android:padding="5dp"/>
         </LinearLayout>
     </LinearLayout>
