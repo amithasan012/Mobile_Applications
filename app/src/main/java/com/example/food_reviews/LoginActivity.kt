@@ -1,6 +1,8 @@
 package com.example.food_reviews
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,6 +13,11 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_login)
+
+    }
+
+    fun registerUser(view: View) {
+        startActivity(Intent(this@LoginActivity, RegisterActivity::class.java))
 
     }
 }

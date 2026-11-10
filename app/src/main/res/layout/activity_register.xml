@@ -33,7 +33,7 @@
             android:drawableLeft="@android:drawable/ic_menu_myplaces"
             android:ems="10"
             android:inputType="text"
-            android:hint="usernmae"
+            android:hint="username"
             android:padding="10dp"
             android:drawablePadding="10dp"
             android:layout_marginHorizontal="10dp"/>

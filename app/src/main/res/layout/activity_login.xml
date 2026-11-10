@@ -82,7 +82,8 @@
                 android:layout_weight="1"
                 android:text="Click here to register"
                 android:textSize="15dp"
-                android:padding="5dp"/>
+                android:padding="5dp"
+                android:onClick="registerUser"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
