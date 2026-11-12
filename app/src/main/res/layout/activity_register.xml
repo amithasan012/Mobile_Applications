@@ -90,15 +90,6 @@
             >
 
             <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="New here"
-                android:textSize="15dp"
-                android:padding="5dp"/>
-
-            <TextView
                 android:id="@+id/login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

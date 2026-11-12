@@ -9,9 +9,9 @@
               <option name="connection">
                 <ConnectionSetting>
                   <option name="appId" value="com.example.food_reviews" />
-                  <option name="mobileSdkAppId" value="1:558896765404:android:60687daacb4fa3d115d719" />
-                  <option name="projectId" value="food-reviews-71d20" />
-                  <option name="projectNumber" value="558896765404" />
+                  <option name="mobileSdkAppId" value="1:1055246118258:android:345ac5a79d8b1c8664c1eb" />
+                  <option name="projectId" value="local-food-reviews" />
+                  <option name="projectNumber" value="1055246118258" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
