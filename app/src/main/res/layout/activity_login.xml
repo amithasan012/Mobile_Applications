@@ -12,7 +12,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:layout_margin="30dp">
+        android:layout_margin="30dp"
+        android:background="@color/white">
 
         <TextView
             android:id="@+id/textView"
@@ -33,6 +34,8 @@
             android:drawableLeft="@android:drawable/ic_dialog_email"
             android:ems="10"
             android:hint="email"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:inputType="textEmailAddress"
             android:padding="10dp"
             android:drawablePadding="10dp"
@@ -45,6 +48,8 @@
             android:layout_margin="10dp"
             android:drawableLeft="@android:drawable/ic_lock_lock"
             android:ems="10"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:hint="password"
             android:inputType="textPassword"
             android:padding="10dp" />
@@ -73,6 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="New here"
+                android:textColor="@color/black"
                 android:textSize="15dp"
                 android:padding="5dp"/>
 
@@ -84,6 +90,7 @@
                 android:text="Click here to register"
                 android:textSize="15dp"
                 android:padding="5dp"
+                android:textColor="@color/black"
                 android:onClick="registerUser"/>
         </LinearLayout>
     </LinearLayout>

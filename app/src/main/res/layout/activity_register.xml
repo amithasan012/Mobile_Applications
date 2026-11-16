@@ -12,7 +12,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:layout_margin="30dp">
+        android:layout_margin="30dp"
+        android:background="@color/white">
 
         <TextView
             android:id="@+id/textView"
@@ -33,6 +34,8 @@
             android:drawableLeft="@android:drawable/ic_menu_myplaces"
             android:ems="10"
             android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:hint="username"
             android:padding="10dp"
             android:drawablePadding="10dp"
@@ -45,6 +48,8 @@
             android:drawableLeft="@android:drawable/ic_dialog_email"
             android:ems="10"
             android:hint="email"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:inputType="textEmailAddress"
             android:padding="10dp"
             android:drawablePadding="10dp"
@@ -58,6 +63,8 @@
             android:drawableLeft="@android:drawable/ic_lock_lock"
             android:ems="10"
             android:hint="password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:inputType="textPassword"
             android:padding="10dp" />
         <EditText
@@ -68,6 +75,8 @@
             android:drawableLeft="@android:drawable/ic_lock_lock"
             android:ems="10"
             android:hint="confirm password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:inputType="textPassword"
             android:padding="10dp" />
 
@@ -95,6 +104,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Have an account?Login"
+                android:textColor="@color/black"
                 android:textSize="15dp"
                 android:padding="5dp"
                 android:onClick="loginUser"/>

@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="25dp">
+        android:padding="25dp"
+        android:background="@color/white">
 
         <TextView
             android:id="@+id/textView5"
@@ -49,6 +50,8 @@
             android:ems="10"
             android:gravity="start|top"
             android:hint="write a caption"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:inputType="textMultiLine"
             android:maxLines="5"
             android:padding="10dp"
@@ -62,6 +65,7 @@
             android:layout_marginBottom="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="0/100" />
 
         <Button
