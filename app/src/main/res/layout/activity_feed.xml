@@ -124,10 +124,9 @@
                     >
                     <ImageView
                         android:id="@+id/imageView4"
-                        android:layout_width="10dp"
+                        android:layout_width="30dp"
                         android:gravity="center"
                         android:layout_height="30dp"
-                        android:layout_weight="1"
                         app:srcCompat="@android:drawable/ic_input_add" />
 
                     <TextView
@@ -137,8 +136,9 @@
                         android:layout_weight="1"
                         android:text="Create Post"
                         android:textColor="@color/black"
-                        android:gravity="center"
+                        android:gravity="left"
                         android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
                         android:onClick="createPost"/>
 
 
@@ -154,10 +154,10 @@
 
                     <ImageView
                         android:id="@+id/imageView7"
-                        android:layout_width="wrap_content"
+
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:layout_weight="1"
+                        android:layout_width="30dp"
                         app:srcCompat="@android:drawable/ic_popup_sync" />
 
                     <TextView
@@ -167,7 +167,8 @@
                         android:layout_weight="1"
                         android:text="My Posts"
                         android:textColor="@color/black"
-                        android:gravity="center"
+                        android:gravity="left"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
                         android:onClick="myPosts"/>
                 </LinearLayout>
@@ -182,10 +183,10 @@
 
                     <ImageView
                         android:id="@+id/imageView8"
-                        android:layout_width="60dp"
+                        android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:layout_weight="1"
+
                         app:srcCompat="@android:drawable/ic_popup_sync" />
 
                     <TextView
@@ -195,8 +196,9 @@
                         android:layout_weight="1"
                         android:text="Reset Password"
                         android:textColor="@color/black"
-                        android:gravity="center"
+                        android:gravity="left"
                         android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
                         android:onClick="resetPassword"/>
                 </LinearLayout>
 
@@ -208,9 +210,8 @@
 
                     <ImageView
                         android:id="@+id/imageView9"
-                        android:layout_width="23dp"
+                        android:layout_width="30dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         app:srcCompat="@android:drawable/ic_lock_power_off" />
 
                     <TextView
@@ -218,8 +219,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:gravity="center"
+                        android:gravity="left"
                         android:text="Log out"
+                        android:layout_marginLeft="10dp"
                         android:textColor="@color/black"
                         android:layout_marginTop="5dp"
                         android:onClick="loginUser"/>
